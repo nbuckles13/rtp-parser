@@ -1,0 +1,21 @@
+[package]
+description = "Parser for the RTP protocol"
+license = "MIT"
+homepage = "https://github.com/nbuckles13/rtp-parser"
+repository = "https://github.com/nbuckles13/rtp-parser.git"
+name = "rtp-parser"
+version = "0.1.0"
+authors = ["Nathan Buckles <nbuckles@gmail.com>"]
+categories = ["network-programming", "parser-implementations", "rtp"]
+readme="README.md"
+edition = "2018"
+
+include = [
+  "LICENSE-*",
+  ".gitignore",
+  "Cargo.toml",
+  "src/*.rs",
+]
+
+[dependencies]
+nom = "5.0"
