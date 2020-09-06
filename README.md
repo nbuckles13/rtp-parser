@@ -1,6 +1,7 @@
 # rtp-parser
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Build Status](https://api.travis-ci.org/nbuckles13/rtp-parser.svg?branch=main)](https://travis-ci.org/github/nbuckles13/rtp-parser)
 
 # RTP Parser
 
