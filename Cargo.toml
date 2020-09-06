@@ -6,7 +6,7 @@ repository = "https://github.com/nbuckles13/rtp-parser.git"
 name = "rtp-parser"
 version = "0.1.0"
 authors = ["Nathan Buckles <nbuckles@gmail.com>"]
-categories = ["network-programming", "parser-implementations", "rtp"]
+categories = ["network-programming", "parser-implementations"]
 readme="README.md"
 edition = "2018"
 
