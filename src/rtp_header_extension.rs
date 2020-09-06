@@ -1,4 +1,3 @@
-
 /// An RTP packet header extension, https://tools.ietf.org/html/rfc3550#section-5.3.1
 #[derive(Debug)]
 pub struct RtpPacketHeaderExtension<'a> {

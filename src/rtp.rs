@@ -1,4 +1,4 @@
-use crate::rtp_header_extension::{RtpPacketHeaderExtension};
+use crate::rtp_header_extension::RtpPacketHeaderExtension;
 
 /// An RTP packet, https://tools.ietf.org/html/rfc3550#section-5.1
 #[derive(Debug)]

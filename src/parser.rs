@@ -8,11 +8,11 @@ use nom::bytes::complete::take as bytes_take;
 use nom::combinator::rest;
 use nom::error::make_error;
 use nom::error::ErrorKind;
-use nom::Err;
-use nom::IResult;
 use nom::multi::count;
 use nom::number::complete::{be_u16, be_u32};
 use nom::sequence::tuple;
+use nom::Err;
+use nom::IResult;
 
 /// Parse an RTP packet
 pub fn parse_rtp_packet(input: &[u8]) -> IResult<&[u8], RtpPacket> {
@@ -451,7 +451,8 @@ mod tests {
     #[test]
     fn parse_rtp_packet_padding() {
         let data = vec![
-            0xA0, 0x11, 0x12, 0x34, 0x56, 0x78, 0x90, 0xAB, 0xCD, 0xEF, 0xFE, 0xDC, 0xBA, 0x09, 0x03
+            0xA0, 0x11, 0x12, 0x34, 0x56, 0x78, 0x90, 0xAB, 0xCD, 0xEF, 0xFE, 0xDC, 0xBA, 0x09,
+            0x03,
         ];
         let result = parse_rtp_packet(&data);
 

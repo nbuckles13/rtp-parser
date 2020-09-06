@@ -11,11 +11,15 @@ readme="README.md"
 edition = "2018"
 
 include = [
-  "LICENSE-*",
+  "LICENSE",
   ".gitignore",
+  ".travis.yml",
   "Cargo.toml",
   "src/*.rs",
 ]
 
 [dependencies]
 nom = "5.0"
+
+[badges]
+travis-ci = { repository = "nbuckles13/rtp-parser" }
